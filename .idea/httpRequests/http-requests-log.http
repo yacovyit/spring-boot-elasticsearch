@@ -1,0 +1,531 @@
+GET http://localhost:8102/user/view/3
+
+###
+
+DELETE http://localhost:8102/user/delete/3
+
+<> 2019-08-23T050230.200.txt
+
+###
+
+GET http://localhost:8102/user/view/3
+
+<> 2019-08-23T050224.200.json
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: application/json
+
+{
+  "userId" :"3",
+  "name" : "mosh",
+  "userSettings" : {
+    "gender" : "male",
+    "occupation" : "developer",
+    "hobby" : "sssssss"
+  }
+}
+
+<> 2019-08-23T050213.200.txt
+
+###
+
+GET http://localhost:8102/user/view/3
+
+###
+
+DELETE http://localhost:8102/user/delete/3
+
+<> 2019-08-23T050156.200.txt
+
+###
+
+DELETE http://localhost:8102/user/delete/3
+
+<> 2019-08-23T050125.500.json
+
+###
+
+DELETE http://localhost:8102/user/delete/3
+
+<> 2019-08-23T050055.500.json
+
+###
+
+DELETE http://localhost:8102/user/delete/3
+
+<> 2019-08-23T050016.500.json
+
+###
+
+GET http://localhost:8102/user/view/3
+
+<> 2019-08-23T045740.200.json
+
+###
+
+PUT http://localhost:8102/user/update/3/yyyy
+
+<> 2019-08-23T045737.200.txt
+
+###
+
+GET http://localhost:8102/user/view/3
+
+<> 2019-08-23T045730.200.json
+
+###
+
+PUT http://localhost:8102/user/update/3/xxxxx
+
+<> 2019-08-23T045725.200.txt
+
+###
+
+GET http://localhost:8102/user/view/3
+
+<> 2019-08-23T045711.200.json
+
+###
+
+GET http://localhost:8102/user/view/name/mosh
+
+<> 2019-08-23T045322.200.json
+
+###
+
+GET http://localhost:8102/user/view/name/moshe
+
+<> 2019-08-23T045309.500.json
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: application/json
+
+{
+  "userId" :"4",
+  "name" : "mosh",
+  "userSettings" : {
+    "gender" : "male",
+    "occupation" : "developer",
+    "hobby" : "sssssss"
+  }
+}
+
+<> 2019-08-23T045306.200.txt
+
+###
+
+GET http://localhost:8102/user/view/name/moshe
+
+<> 2019-08-23T045257.500.json
+
+###
+
+GET http://localhost:8102/user/view/name/iris
+
+<> 2019-08-23T045233.200.json
+
+###
+
+GET http://localhost:8102/user/view/name/yacov
+
+<> 2019-08-23T045215.200.json
+
+###
+
+GET http://localhost:8102/user/view/name/yacov
+
+<> 2019-08-23T045148.404.json
+
+###
+
+GET http://localhost:8102/user/view/name/yacov
+
+<> 2019-08-23T045131.404.json
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: application/json
+
+{
+  "userId" :"3",
+  "name" : "iris",
+  "userSettings" : {
+    "gender" : "female",
+    "occupation" : "developer",
+    "hobby" : "basketball"
+  }
+}
+
+<> 2019-08-23T044003.404.json
+
+###
+
+GET http://localhost:8102/user/view/3
+
+<> 2019-08-23T043636.200.json
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: application/json
+
+{
+  "userId" :"3",
+  "name" : "iris",
+  "userSettings" : {
+    "gender" : "female",
+    "occupation" : "developer",
+    "hobby" : "basketball"
+  }
+}
+
+<> 2019-08-23T043629.200.txt
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: application/json
+
+{
+  "userId" :"2",
+  "name" : "yacov",
+  "userSettings" : {
+    "gender" : "male",
+    "occupation" : "developer",
+    "hobby" : "basketball"
+  }
+}
+
+<> 2019-08-23T043600.200.txt
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: application/json
+
+{
+  "userId" :"2",
+  "name" : "yacov",
+  "userSettings" : {
+    "gender" : "male",
+    "occupation" : "developer",
+    "hobby" : "basketball"
+  }
+}
+
+<> 2019-08-23T043527.404.json
+
+###
+
+GET http://localhost:8102/user/view/2
+
+<> 2019-08-23T043439.200.json
+
+###
+
+GET http://localhost:8102/user/view/1
+
+###
+
+GET http://localhost:8102/user/view/1
+
+<> 2019-08-23T043348.404.json
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: application/json
+
+{
+  "userId" :"2",
+  "name" : "yacov",
+  "userSettings" : {
+    "gender" : "male",
+    "occupation" : "developer",
+    "hobby" : "basketball"
+  }
+}
+
+<> 2019-08-23T043247.200.txt
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: application/json
+
+{
+  "userId" :"2",
+  "name" : "yacov",
+  "userSettings" : {
+    "gender" : "male",
+    "occupation" : "developer",
+    "hobby" : "basketball"
+  }
+}
+
+<> 2019-08-23T043204.404.json
+
+###
+
+GET http://localhost:8102/user/view/1
+
+<> 2019-08-23T043053.404.json
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: application/json
+
+{
+  "userId" :"2",
+  "name" : "yacov",
+  "userSettings" : {
+    "gender" : "male",
+    "occupation" : "developer",
+    "hobby" : "basketball"
+  }
+}
+
+<> 2019-08-23T043042.404.json
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: application/json
+
+{
+  "userId" :"2",
+  "name" : "yacov",
+  "userSettings" : {
+    "gender" : "male",
+    "occupation" : "developer",
+    "hobby" : "basketball"
+  }
+}
+
+<> 2019-08-23T042849.404.json
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: application/json
+{:
+  "userId" : "2",
+  "name" : "yacov",
+  "userSettings" :
+
+<> 2019-08-23T042839.400.html
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: application/json
+
+{
+  "userId" :"2",
+  "name" : "yacov",
+  "userSettings" : {
+    "gender" : "male",
+    "occupation" : "developer",
+    "hobby" : "basketball"
+  }
+}
+
+<> 2019-08-23T042817.404.json
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: "application/json"
+
+{
+  "userId" :"2",
+  "name" : "yacov",
+  "userSettings" : {
+    "gender" : "male",
+    "occupation" : "developer",
+    "hobby" : "basketball"
+  }
+}
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: "application/json"
+
+{
+  "userId" :"2",
+  "name" : "yacov",
+  "userSettings" : {
+    "gender" : "male",
+    "occupation" : "developer",
+    "hobby" : "basketball"
+  }
+}
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: "application/json"
+
+{
+  "userId" :"2",
+  "name" : "yacov",
+  "userSettings" : {
+    "gender" : "male",
+    "occupation" : "developer",
+    "hobby" : "basketball"
+  }
+}
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: "application/json"
+
+{
+  "userId" :"2",
+  "name" : "yacov",
+  "userSettings" : {
+    "gender" : "male",
+    "occupation" : "developer",
+    "hobby" : "basketball"
+  }
+}
+
+###
+
+GET http://localhost:8102/user/view/1
+
+<> 2019-08-23T042421.404.json
+
+###
+
+GET http://localhost:8102/user/view/1
+
+<> 2019-08-23T042355.404.json
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: application/json
+
+{
+  "userId" :"2",
+  "name" : "yacov",
+  "userSettings" : {
+    "gender" : "male",
+    "occupation" : "developer",
+    "hobby" : "basketball"
+  }
+}
+
+<> 2019-08-23T042314.404.json
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: application/json
+
+{
+  "userId" :"2",
+  "name" : "yacov",
+  "userSettings" : {
+    "gender" : "male",
+    "occupation" : "developer",
+    "hobby" : "basketball"
+  }
+}
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: application/json
+
+{
+  "userId" :"2",
+  "name" : "yacov",
+  "userSettings" : {
+    "gender" : "male",
+    "occupation" : "developer",
+    "hobby" : "basketball"
+  }
+}
+
+<> 2019-08-23T042107.404.json
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: application/json
+
+{
+  "userId" :"2",
+  "name" : "yacov",
+  "userSettings" : {
+    "gender" : "male",
+    "occupation" : "developer",
+    "hobby" : "basketball"
+  }
+}
+
+<> 2019-08-23T041305.500.json
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: application/json
+
+{
+  "userId" :"2",
+  "name" : "yacov",
+  "userSettings" : {
+    "gender" : "male",
+    "occupation" : "developer",
+    "hobby" : "basketball"
+  }
+}
+
+<> 2019-08-23T040922.500.json
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: application/json
+
+{
+  "userId" :"2",
+  "name" : "yacov",
+  "userSettings" : {
+    "gender" : "male",
+    "occupation" : "developer",
+    "hobby" : "basketball"
+  }
+}
+
+<> 2019-08-23T040013.500.json
+
+###
+
+POST http://localhost:8102/user/create
+Content-Type: application/json
+
+{
+  "userId" :"2",
+  "name" : "yacov",
+  "userSettings" : {
+    "gender" : "male",
+    "occupation" : "developer",
+    "hobby" : "basketball"
+  }
+}
+
+<> 2019-08-23T040001.500.json
+
+###
+

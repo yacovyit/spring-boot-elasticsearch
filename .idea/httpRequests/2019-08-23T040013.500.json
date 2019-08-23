@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-08-23T13:00:13.048+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "None of the configured nodes are available: [{#transport#-1}{6w5qxqKRQK-GC7B6fTST3g}{localhost}{127.0.0.1:9300}]",
+  "path": "/user/create"
+}
